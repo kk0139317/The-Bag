@@ -7,7 +7,7 @@ function Favcard() {
     <div>
 
         <Image
-            src={"/assets/img/fav-1.png"}
+            src={"/assets/img/bag-1.png"}
             width={600}
             height={500}
             alt='Girl.png'

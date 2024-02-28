@@ -6,11 +6,11 @@ function Favourite() {
     <section className=' flex  z-10 mt-80 ' >
         <div className='mt-40' >
         <div className='flex' >
-                <h1 className='text-2xl mt-0 sm:mt-10 font-extrabold' >
+                <h1 className='text-2xl mx-auto mt-0 sm:mt-10 font-extrabold' >
                 Young’s Favourite
                 </h1>
             </div>
-            <div className=' m-auto sm:flex gap-8 ' >
+            <div className=' m-auto sm:flex gap-8  ' >
                 <Favcard/>
                 <Favcard/>
             </div>

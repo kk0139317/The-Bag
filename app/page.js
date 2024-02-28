@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Arrivals, Brands, HeroSection, Poster, Favourite, Application } from "./components";
+import { Arrivals, Brands, HeroSection, Poster, Favourite, Application, Contatct, BestSelling, All_Products, ExclusiveOffer } from "./components";
 
 
 export default function Home() {
@@ -7,10 +7,14 @@ export default function Home() {
     <main className="">
       <HeroSection/>
       <Brands/>
+      <BestSelling/>
+      <ExclusiveOffer/>
+      <All_Products/>
       <Arrivals/>
       <Poster/>
       <Favourite/>
-      <Application/>
+      {/* <Application/> */}
+      <Contatct/>
     </main>
   );
 }

@@ -4,9 +4,9 @@ import { Arivalcard } from '.'
 
 function Arrivals() {
     return (
-        <section className=' mt-40 flex-col ' >
+        <section className=' mt-20 flex-col ' >
             <div className='flex' >
-                <h1 className='text-2xl sm:mt-0 mt-10 font-extrabold' >
+                <h1 className='text-2xl mx-auto sm:mt-0 mt-10 font-extrabold' >
                     NEW ARRIVALS
                 </h1>
             </div>

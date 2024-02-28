@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-function Poster() {
+function ExclusiveOffer() {
   return (
-    <section className=' w-full absolute left-0 h-auto bg-amber-300  sm:flex ' >
+    <section className=' w-full absolute my-10 left-0 h-auto bg-amber-300  sm:flex ' >
     
     <div className='hidden align-middle ml-auto  sm:flex '>
     <Image 
@@ -16,11 +16,11 @@ function Poster() {
     </div>
     <div className='flex flex-col '>
       <div className=' text-2xl sm:text-5xl  font-extrabold  m-10  flex flex-col' >
-        <div className='bg-white mt-2 p-2 sm:mt-10 my-2 w-60 -rotate-3 '>
-        PAYDAY
+        <div className='bg-white mt-2 p-2 sm:mt-10 my-2 w-80 -rotate-3 '>
+        EXCLUSIVE
         </div > 
         <span className=' my-0 sm:my-2'>
-        SALE NOW
+        OFFER
         </span > 
       </div>
       <span className='mx-12 mb:0 -mt-10 sm:mb-5 sm:-mt-5' >
@@ -38,4 +38,4 @@ function Poster() {
   )
 }
 
-export default Poster
+export default ExclusiveOffer
