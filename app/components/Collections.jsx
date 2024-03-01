@@ -4,19 +4,18 @@ import { BestSellingCard } from '.'
 import Link from 'next/link'
 import { Right_Icon } from './icons'
 
-function BestSelling() {
+function Collections() {
     return (
         <section className=' mt-40 flex-col  ' >
             <div className='flex' >
-                <h1 className='text-2xl sm:mt-0 mt-10 mx-auto font-extrabold' >
-                    BEST SELLING
+                <h1 className='text-2xl sm:mt-0 mt-0 mx-auto font-extrabold' >
+                    Our Collections
                 </h1>
             </div>
             <div className=' m-auto sm:flex gap-8 ' >
                 <BestSellingCard/>
                 <BestSellingCard/>
                 <BestSellingCard/>
-                
             </div>
             <div className='flex justify-center mt-4' >
             <Link href={"#"}  
@@ -32,4 +31,4 @@ function BestSelling() {
     )
 }
 
-export default BestSelling
+export default Collections;

@@ -18,6 +18,7 @@ function All_Products() {
                 <BestSellingCard/>
                 <BestSellingCard/>
                 <BestSellingCard/>
+
             </div>
             <div className='flex justify-center mt-4' >
             <Link href={"#"}  
