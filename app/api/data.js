@@ -9,7 +9,7 @@ const products = [
       images: ['/assets/img/bag-1.png', '/assets/img/girl-1.png', '/assets/img/girl-3.png'],
       sizes: ['S', 'M', 'L', 'XL'],
       colors: ["Black", "White", "Blue"],
-      trending:'',
+      trending:'New',
       newarival:'True'
     },
     {

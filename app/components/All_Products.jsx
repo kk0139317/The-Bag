@@ -12,7 +12,7 @@ function All_Products() {
         <section className=' margin-top flex-col' >
             <div className='flex mt'  >
                 <h1 className='text-2xl sm:mt-0 mt-10 mx-auto font-extrabold' >
-                    Trending
+                    All Products
                 </h1>
             </div>
             {/* <div className=' m-auto sm:flex gap-8 ' >
@@ -28,7 +28,7 @@ function All_Products() {
 
                         <div className='relative w-full h-60 sm:w-60 sm:h-60 bg-gray-200 mx-auto rounded-2xl overflow-hidden '>
                             {/* Adjust the width and height as needed */}
-                            <div className=' bg-red-500 text-center -rotate-45 absolute mt-4 text-white font-bold -ml-12 px-10 ' > {product.trending} </div>
+                            <div className=' bg-red-500 text-center -rotate-45  mt-6 text-white font-bold -ml-44 text-sm  px-10 ' > {product.trending} </div>
                             <Image
                                 src={product.images[0]}
                                 layout='fill'

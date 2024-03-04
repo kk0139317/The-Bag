@@ -19,7 +19,7 @@ function All_Products() {
 
                                 <div className='relative w-full h-60 sm:w-60 sm:h-60 bg-gray-200 mx-auto rounded-2xl overflow-hidden '>
                                      {/* Adjust the width and height as needed */}
-                                     <div className=' bg-red-500 text-center -rotate-45 absolute mt-4 text-white font-bold -ml-12 px-10 ' > {product.trending} </div>
+                                     <div className=' bg-red-500 text-center -rotate-45  mt-6 text-white font-bold -ml-44 text-sm  px-10 ' > {product.trending} </div>
                                     <Image
                                         src={product.images[0]}
                                         layout='fill'
