@@ -23,7 +23,7 @@ function HeroSection() {
         <span className='mx-12 mb:0 -mt-10 sm:mb-5 sm:-mt-5' >
         We help you choose eco-friendly products from our personally curated collection.
         </span> 
-        <Link href={"#"} className=' mx-10 text-center py-3 rounded-lg my-2 sm:mb-10 -mb-16 bg-black shadow-md shadow-gray-300 text-white w-40 ' >
+        <Link href={"shop"} className=' mx-10 text-center py-3 rounded-lg my-2 sm:mb-10 -mb-16 bg-black shadow-md shadow-gray-300 text-white w-40 ' >
            SHOP NOW
         </Link>
       </div>
